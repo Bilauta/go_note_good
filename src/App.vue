@@ -106,11 +106,11 @@
   }
   
   .custom-nav {
-	  background-color: #1E3C40;
+	background-color: #1E3C40;
   }
   
   .custom-heading {
-	  color: #6C8C8C;
+	color: #6C8C8C;
   }
   
   
