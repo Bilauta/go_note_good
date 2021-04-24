@@ -6,7 +6,7 @@
           <i class="bi-clipboard-check text-secondary"></i> GoNote
         </h3>
         <button type="button" class="btn btn-dark w-100 py-2 rounded-0" v-on:click="onShowAddForm()">
-          <i class="bi-pen-fill text-white"></i> Stwórz nową notatkę
+          <i class="bi-pen text-white"></i> Stwórz nową notatkę
         </button>
           <notes-list
             v-bind:notes="notes"
@@ -28,7 +28,7 @@
     <nav class="navbar fixed-bottom navbar-dark bg-dark">
       <div class="container-fluid justify-content-end p-2">
         <span class="text-muted mx-5 d-none d-md-block">©2021 Polityka prywatności | Warunki korzystania z usługi</span>
-        <span class="text-light"><i class="bi-heart-fill pe-2"></i>Moje konto</span>
+        <span class="text-light"><i class="bi-heart pe-2"></i>Moje konto</span>
       </div>
     </nav>
   </div>
@@ -99,9 +99,20 @@
   }
 
   .cover {
-    background-image: url("./assets/background.jpg");
+    background-image: url("./assets/background2.jpg");
     background-position: center;
     background-size: cover;
     height: 30%;
   }
+  
+  .custom-nav {
+	background-color: #1E3C40;
+  }
+  
+  .custom-heading {
+	color: #6C8C8C;
+  }
+  
+  
+  
 </style>
